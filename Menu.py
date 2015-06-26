@@ -210,7 +210,7 @@ class Menu():
                 		sleep(.3)
 
     		else:
-       			if self.buttonPressed(lcd):
+       			if self.buttonPressed(lcd, LCD):
              	            lcd.enable_display('TRUE')
             		    lcd.set_backlight(1)
             		    self.isOnCount = 0
