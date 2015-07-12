@@ -1,10 +1,10 @@
 #Daniel Juenger, github.com/sleeepyjack
 
 from time import sleep
-from Adafruit_CharLCDPlate import Adafruit_CharLCDPlate
+import Adafruit_CharLCD as LCD
 from menu import Menu
 
-lcd = Adafruit_CharLCDPlate()
+lcd = LCD.Adafruit_CharLCDPlate()
 menu = Menu()
 
 #The menu can show strings, bash and python expressions
